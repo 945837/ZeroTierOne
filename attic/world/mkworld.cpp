@@ -82,24 +82,17 @@ int main(int argc,char **argv)
 
 	const uint64_t id = ZT_WORLD_ID_EARTH;
 	const uint64_t ts = 1567191349589ULL; // August 30th, 2019
-
 	// Los Angeles
 	roots.push_back(World::Root());
-	roots.back().identity = Identity("3a46f1bf30:0:76e66fab33e28549a62ee2064d1843273c2c300ba45c3f20bef02dbad225723bb59a9bb4b13535730961aeecf5a163ace477cceb0727025b99ac14a5166a09a3");
-	roots.back().stableEndpoints.push_back(InetAddress("185.180.13.82/9993"));
-	roots.back().stableEndpoints.push_back(InetAddress("2a02:6ea0:c815::/9993"));
+	roots.back().identity = Identity("35c6ba8f93:0:23f79ddfead2afb7fb29a98ff77b8ea6630f92c6c104dc2383fe9aa80995fb6e164d0a166af1d88608ee74f5a9380633ae1ab33b9243e143f9e75f3e455e135d");
+	roots.back().stableEndpoints.push_back(InetAddress("219.139.48.22/9993"));
+	roots.back().stableEndpoints.push_back(InetAddress("fe80::241:68ff:fe99:7357::/9993"));
 
 	// Miami
 	roots.push_back(World::Root());
-	roots.back().identity = Identity("de8950a8b2:0:1b3ada8251b91b6b6fa6535b8c7e2460918f4f729abdec97d3c7f3796868fb02f0de0b0ee554b2d59fc3524743eebfcf5315e790ed6d92db5bd10c28c09b40ef");
-	roots.back().stableEndpoints.push_back(InetAddress("207.246.73.245/443"));
-	roots.back().stableEndpoints.push_back(InetAddress("2001:19f0:9002:5cb:ec4:7aff:fe8f:69d9/443"));
-
-	// Tokyo
-	roots.push_back(World::Root());
-	roots.back().identity = Identity("34e0a5e174:0:93efb50934788f856d5cfb9ca5be88e85b40965586b75befac900df77352c145a1ba7007569d37c77bfe52c0999f3bdc67a47a4a6000b720a883ce47aa2fb7f8");
-	roots.back().stableEndpoints.push_back(InetAddress("147.75.92.2/443"));
-	roots.back().stableEndpoints.push_back(InetAddress("2604:1380:3000:7100::1/443"));
+	roots.back().identity = Identity("35c6ba8f93:0:23f79ddfead2afb7fb29a98ff77b8ea6630f92c6c104dc2383fe9aa80995fb6e164d0a166af1d88608ee74f5a9380633ae1ab33b9243e143f9e75f3e455e135d");
+	roots.back().stableEndpoints.push_back(InetAddress("61.184.139.5/9993"));
+	roots.back().stableEndpoints.push_back(InetAddress("fe80::241:68ff:fe99:7357::/9993"));
 
 	// Amsterdam
 	roots.push_back(World::Root());
